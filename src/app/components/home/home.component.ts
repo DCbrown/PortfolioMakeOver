@@ -9,19 +9,28 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
     trigger('slideInOutLeft', [
       transition(':enter', [
         style({transform: 'translateX(-100%)'}),
-        animate('500ms ease-in', style({transform: 'translateX(0%)'}))
+        animate('600ms ease-in', style({transform: 'translateX(0%)'}))
       ]),
       transition(':leave', [
-        animate('500ms ease-in', style({transform: 'translateX(-100%)'}))
+        animate('600ms ease-in', style({transform: 'translateX(-100%)'}))
       ])
     ]),
     trigger('slideInOutRight', [
       transition(':enter', [
         style({transform: 'translateX(100%)'}),
-        animate('500ms ease-in', style({transform: 'translateX(0%)'}))
+        animate('600ms ease-in', style({transform: 'translateX(0%)'}))
       ]),
       transition(':leave', [
-        animate('500ms ease-in', style({transform: 'translateX(100%)'}))
+        animate('600ms ease-in', style({transform: 'translateX(100%)'}))
+      ])
+    ]),
+    trigger('slideInTop', [
+      transition(':enter', [
+        style({transform: 'translateY(-100%)'}),
+        animate('800ms ease-in', style({transform: 'translateY(0%)'}))
+      ]),
+      transition(':leave', [
+        animate('800ms ease-in', style({transform: 'translateY(-100%)'}))
       ])
     ])
   ]
