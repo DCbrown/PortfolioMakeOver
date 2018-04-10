@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger,state,style,transition,animate,keyframes } from '@angular/animations';
 
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
+  
   animations: [
     trigger('slideInTop', [
       transition(':enter', [
@@ -16,15 +18,13 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
       ])
     ])
   ]
+  
 })
 export class NavbarComponent implements OnInit {
-
-  transition:string = 'leave';
-
+  
   constructor() { }
 
-  ngOnInit() {
-    this.transition ='enter';
+  ngOnInit() {    
   }
 
 }

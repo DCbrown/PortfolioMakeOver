@@ -11,13 +11,17 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProjectsComponent } from './components/projects/projects.component';
+
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     AngularFontAwesomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
