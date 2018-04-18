@@ -2,6 +2,7 @@
     position: sticky;
     top: 50px;
     z-index: 3;
+    visibility: hidden; 
   }
 
 .grow{

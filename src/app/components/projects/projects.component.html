@@ -1,4 +1,84 @@
 <body class="text-center">
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+   <app-navbar></app-navbar>
+   <div id="subjectButtons">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-light active">
+          <input type="radio" name="options" id="option1" autocomplete="off" checked> All
+        </label>
+        <label class="btn btn-light">
+          <input type="radio" name="options" id="option2" autocomplete="off"> Web  
+        </label>
+        <label class="btn btn-light">
+          <input type="radio" name="options" id="option3" autocomplete="off"> Moblie 
+        </label>
+      </div>
+   </div>
+    <main role="main" id="margin-top" class="inner">
+      <div [@slideInOutRight]='transition'>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+        </a>
+      </div>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+        </a>
+      </div>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+        </a>
+      </div>
+    </div>
+    <div [@slideInOutLeft]='transition'>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+        </a>
+      </div>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+        </a>
+      </div>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+        </a>
+      </div>
+    </div>
+    <div [@slideInOutRight]='transition'>
+      <div class="grow col-lg-4 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="grow col-lg-4 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="grow col-lg-4 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+      </div>  
+    </main>
+    
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <p>© 2018 Donovan C. Brown, Powered by Angular.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+
+<!--
+<body class="text-center">
 
 <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
   <app-navbar></app-navbar>
@@ -38,43 +118,15 @@
         <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
       </a>
     </div>
-    <div class="col-lg-4 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+    
     <footer class="mastfoot mt-auto">
       <div class="inner">
         <p>© 2018 Donovan C. Brown, Powered by Angular.</p>
       </div>
     </footer>
     </div> 
-  </div>
+
 
 
 </body>   
+-->

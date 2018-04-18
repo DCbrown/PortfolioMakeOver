@@ -4,12 +4,13 @@
   
         <app-navbar></app-navbar>
       
-
+    
     <main role="main" id="margin-top" class="inner cover">
-      <h1 [@slideInOutRight]='transition'class="cover-heading"><u>Meet Donovan</u></h1>
-      <br/>
-      <p class="lead" [@slideInOutLeft]='transition'>Hi there, I am a Web Developer, Mobile Applications Developer occasional Mentor and Technology Instructor located in Michigan. My love for just about all things computers started back in my High School years, I had a computer drafting class that specialized in Photoshop and Illustrator.</p>
-      <p class="lead" [@slideInOutRight]='transition'>
+        <button (click)="test()">Hi</button>
+      <h1 [@slideInOutRight]='leave' class="cover-heading"><u>Meet Donovan</u></h1>
+      <br/>{{transition}} 
+      <p class="lead" [@slideInOutLeft]='leave' >Hi there, I am a Web Developer, Mobile Applications Developer occasional Mentor and Technology Instructor located in Michigan. My love for just about all things computers started back in my High School years, I had a computer drafting class that specialized in Photoshop and Illustrator.</p>
+      <p class="lead" [@slideInOutRight]='leave'>
         <!--
         <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
         -->
